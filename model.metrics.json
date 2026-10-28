@@ -1,0 +1,32 @@
+{
+  "model_name": "ridge",
+  "app_version": "1.0.0",
+  "trained_at": "2026-10-28T19:12:10.848460+00:00",
+  "n_train": 4000,
+  "n_test": 1000,
+  "features": [
+    "age_years",
+    "km_driven",
+    "engine_cc",
+    "owners",
+    "brand",
+    "fuel_type",
+    "transmission",
+    "city"
+  ],
+  "cv_r2": {
+    "ridge": 0.9718773609032596,
+    "random_forest": 0.9544436337461892,
+    "gradient_boosting": 0.9530906240780361
+  },
+  "test_metrics": {
+    "r2": 0.9728859193842475,
+    "mae_lakh": 0.6751900790087698,
+    "rmse_lakh": 1.4643755269772623,
+    "mape": 0.07022724870202225
+  },
+  "interval_log_quantiles": [
+    -0.10479026537820517,
+    0.1162469583792673
+  ]
+}
